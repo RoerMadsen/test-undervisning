@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'roboto';
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+h2{
+    font-family: 'roboto';
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0.5rem 0 1rem 0;
+    }
+h3{
+    font-family: 'roboto';
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+
+}
+p{
+        font-family: 'roboto';
+        font-size: 1rem;
+        font-weight: 300;
+        padding: 0.5rem 0.5 0.5rem 0;
+}
+a{
+    font-family: 'roboto';
+    }
+
+.flex{
+    display: flex;
+
+}
+.space-between{
+    justify-content: space-between;
+    align-items: center;
+}
+#sel-lang{
+    max-width: 100%;
+    background-color: #f3f4ff;
+    height: 1.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+}
+.lang-opt{
+    float: right;
+}
+.divider-vr{
+    border-left: 0.1rem solid black;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+#navbar{
+    max-width: 100%;
+    max-height: 5rem;
+    background-color: #779882;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+.top-logo{
+    max-height: 5rem;
+    max-width: auto;
+}
+.burger-menu{
+    height: 3rem;
+    width: 3rem;
+    background-image: url(buger-icon.svg);
+    background-repeat: no-repeat;
+    border: 0;
+    background-color: #779882;
+    background-position-y: 50%;
+    background-position-x: 50%;
+}
+.full-width-img{
+    max-width: 100%;
+    height: auto;
+}
+#top-hero{
+    background-color: #779882;
+    color: #f3f4ff;
+    text-align: center;
+}
+
+
+#subscribe-grid{
+    display: grid;
+    padding:2rem 1rem 2rem 2rem;
+    background-color: #f3f4ff;
+}
+
+@media (max-width: 50em){
+    #subscribe-grid{
+        grid-template-columns: 1fr;
+        background-color: #779882;
+    }
+}
+@media (min-width: 50em){
+    #subscribe-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.grid-col-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.col-span-2{
+    grid-column: span 2;
+}
+
+.subscribe-form{
+    background-color: #425348;
+    padding: 2rem 3rem 2rem 3rem;
+    margin: 2rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+    max-width: 80%;
+}
+.subscribe-form input{
+    height: 2rem;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.2rem 0 0.2rem 1rem;
+    border-radius: 1rem;
+    border-style: none;
+    min-width: 95%;
+    background-color: #f3f4ff;
+}
+label{
+    display: none;
+}
+.button{
+    display: block;
+    background-color: #779882;
+    color: #f3f4ff;
+    border-radius: 1rem;
+    border-style: none;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.subscribe-form button{
+    width: 100%;
+}
+.button:hover{
+    background-color: #f3f4ff;
+    color: #779882;
+}
+.form-fieldset{
+    max-width: 100%;
+}
+.form-title{
+    color: #f3f4ff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.text-box p{
+    padding:0.5rem;
+}
+#learn-more{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 5rem 2rem 5rem;
+    align-items: center;
+}
+#learn-more p{
+    padding: 0.5rem;
+}
+#learn-more .button{
+    max-width: fit-content;
+    text-decoration: none;
+}
+footer{
+    background-color: #425348;
+}
+ul{
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'roboto';
+    color: #f3f4ff;
+    font-weight: 400;
+    padding: 1rem 1rem 5rem 1.5rem;
+}
+li{
+    padding-left: 1.5rem;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
