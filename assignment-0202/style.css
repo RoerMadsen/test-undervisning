@@ -93,7 +93,6 @@ a{
 @media (max-width: 50em){
     #subscribe-grid{
         grid-template-columns: 1fr;
-        background-color: #779882;
     }
 }
 @media (min-width: 50em){
